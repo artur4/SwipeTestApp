@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CustomButton.h
 //  SwipeTestApp
 //
 //  Created by Artur Mirrov on 04.07.16.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface CustomButton : UIButton
 
 @end
-

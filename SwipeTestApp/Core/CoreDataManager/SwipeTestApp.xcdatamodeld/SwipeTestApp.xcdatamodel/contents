@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="DetailItem" representedClassName="DetailItem" syncable="YES">
+        <attribute name="cover" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hide" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id_item" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offers" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="shops" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DetailItem" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>

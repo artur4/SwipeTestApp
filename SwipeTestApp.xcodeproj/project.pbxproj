@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63050EAD1D2B063C00262FC7 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63050EAB1D2B063C00262FC7 /* ListTableViewCell.m */; };
+		63050EAE1D2B063C00262FC7 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63050EAC1D2B063C00262FC7 /* ListTableViewCell.xib */; };
 		63B58B3B1D2A84A9000E821C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B3A1D2A84A9000E821C /* main.m */; };
-		63B58B3E1D2A84A9000E821C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B3D1D2A84A9000E821C /* AppDelegate.m */; };
-		63B58B411D2A84A9000E821C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B401D2A84A9000E821C /* ViewController.m */; };
 		63B58B441D2A84A9000E821C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B58B421D2A84A9000E821C /* Main.storyboard */; };
 		63B58B461D2A84AA000E821C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B58B451D2A84AA000E821C /* Assets.xcassets */; };
 		63B58B491D2A84AA000E821C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B58B471D2A84AA000E821C /* LaunchScreen.storyboard */; };
 		63B58B541D2A84AA000E821C /* SwipeTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B531D2A84AA000E821C /* SwipeTestAppTests.m */; };
+		63B58B691D2A87E5000E821C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B681D2A87E5000E821C /* AppDelegate.m */; };
+		63B58B6C1D2A8816000E821C /* AppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B6B1D2A8816000E821C /* AppAssembly.m */; };
+		63B58B6F1D2A8857000E821C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B6E1D2A8857000E821C /* MainViewController.m */; };
+		63B58B721D2A886A000E821C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B711D2A886A000E821C /* ListViewController.m */; };
+		63B58B761D2A88A7000E821C /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B751D2A88A7000E821C /* CoreDataManager.m */; };
+		63B58B791D2A88B6000E821C /* ServceLayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B781D2A88B6000E821C /* ServceLayerManager.m */; };
+		63B58B7C1D2A88E9000E821C /* SwipeTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B7A1D2A88E9000E821C /* SwipeTestApp.xcdatamodeld */; };
+		63B58B7E1D2A893D000E821C /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B58B7D1D2A893D000E821C /* Configuration.plist */; };
+		63B58B851D2AA992000E821C /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B841D2AA992000E821C /* ItemModel.m */; };
+		63B58B881D2AAA62000E821C /* MapperBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B871D2AAA62000E821C /* MapperBaseModel.m */; };
+		63B58B8B1D2AAD25000E821C /* DetailItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B8A1D2AAD25000E821C /* DetailItemModel.m */; };
+		63B58B901D2ABAF7000E821C /* DetailItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B8D1D2ABAF7000E821C /* DetailItem+CoreDataProperties.m */; };
+		63B58B911D2ABAF7000E821C /* DetailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58B8F1D2ABAF7000E821C /* DetailItem.m */; };
+		63B58BB81D2ABBA4000E821C /* YSLCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58BB51D2ABBA4000E821C /* YSLCardView.m */; };
+		63B58BB91D2ABBA4000E821C /* YSLDraggableCardContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58BB71D2ABBA4000E821C /* YSLDraggableCardContainer.m */; };
+		63B58BBC1D2ABBD9000E821C /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58BBB1D2ABBD9000E821C /* CardView.m */; };
+		63B58BC11D2ACA03000E821C /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58BC01D2ACA03000E821C /* CustomButton.m */; };
+		63B58BC51D2AED64000E821C /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B58BC41D2AED64000E821C /* ModelObject.m */; };
+		67E45655FA25DC58C2E9DAC5 /* libPods-SwipeTestAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF3D1DD5D1FBBD6B2A0349 /* libPods-SwipeTestAppTests.a */; };
+		A965FCFFB0179AD542B8F9E1 /* libPods-SwipeTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11763113138FBA15344654F5 /* libPods-SwipeTestApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CDF3D1DD5D1FBBD6B2A0349 /* libPods-SwipeTestAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwipeTestAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11763113138FBA15344654F5 /* libPods-SwipeTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwipeTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371DB276F67FBD57E7244E3A /* Pods-SwipeTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeTestApp/Pods-SwipeTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		63050EAA1D2B063C00262FC7 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTableViewCell.h; path = SwipeTestApp/View/ListTableViewCell/ListTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		63050EAB1D2B063C00262FC7 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewCell.m; path = SwipeTestApp/View/ListTableViewCell/ListTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		63050EAC1D2B063C00262FC7 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListTableViewCell.xib; path = SwipeTestApp/View/ListTableViewCell/ListTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		63B58B361D2A84A9000E821C /* SwipeTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B58B3A1D2A84A9000E821C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63B58B3C1D2A84A9000E821C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		63B58B3D1D2A84A9000E821C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63B58B3F1D2A84A9000E821C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63B58B401D2A84A9000E821C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63B58B431D2A84A9000E821C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63B58B451D2A84AA000E821C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63B58B481D2A84AA000E821C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +62,43 @@
 		63B58B4F1D2A84AA000E821C /* SwipeTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B58B531D2A84AA000E821C /* SwipeTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTestAppTests.m; sourceTree = "<group>"; };
 		63B58B551D2A84AA000E821C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B58B671D2A87E5000E821C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63B58B681D2A87E5000E821C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63B58B6A1D2A8816000E821C /* AppAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAssembly.h; sourceTree = "<group>"; };
+		63B58B6B1D2A8816000E821C /* AppAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAssembly.m; sourceTree = "<group>"; };
+		63B58B6D1D2A8857000E821C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		63B58B6E1D2A8857000E821C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		63B58B701D2A886A000E821C /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		63B58B711D2A886A000E821C /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		63B58B741D2A88A7000E821C /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		63B58B751D2A88A7000E821C /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		63B58B771D2A88B6000E821C /* ServceLayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServceLayerManager.h; sourceTree = "<group>"; };
+		63B58B781D2A88B6000E821C /* ServceLayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServceLayerManager.m; sourceTree = "<group>"; };
+		63B58B7B1D2A88E9000E821C /* SwipeTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwipeTestApp.xcdatamodel; sourceTree = "<group>"; };
+		63B58B7D1D2A893D000E821C /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		63B58B831D2AA992000E821C /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		63B58B841D2AA992000E821C /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		63B58B861D2AAA62000E821C /* MapperBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapperBaseModel.h; sourceTree = "<group>"; };
+		63B58B871D2AAA62000E821C /* MapperBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapperBaseModel.m; sourceTree = "<group>"; };
+		63B58B891D2AAD25000E821C /* DetailItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailItemModel.h; sourceTree = "<group>"; };
+		63B58B8A1D2AAD25000E821C /* DetailItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailItemModel.m; sourceTree = "<group>"; };
+		63B58B8C1D2ABAF7000E821C /* DetailItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DetailItem+CoreDataProperties.h"; path = "DataModel/DetailItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		63B58B8D1D2ABAF7000E821C /* DetailItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DetailItem+CoreDataProperties.m"; path = "DataModel/DetailItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		63B58B8E1D2ABAF7000E821C /* DetailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailItem.h; path = DataModel/DetailItem.h; sourceTree = "<group>"; };
+		63B58B8F1D2ABAF7000E821C /* DetailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailItem.m; path = DataModel/DetailItem.m; sourceTree = "<group>"; };
+		63B58BB41D2ABBA4000E821C /* YSLCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLCardView.h; sourceTree = "<group>"; };
+		63B58BB51D2ABBA4000E821C /* YSLCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLCardView.m; sourceTree = "<group>"; };
+		63B58BB61D2ABBA4000E821C /* YSLDraggableCardContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLDraggableCardContainer.h; sourceTree = "<group>"; };
+		63B58BB71D2ABBA4000E821C /* YSLDraggableCardContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLDraggableCardContainer.m; sourceTree = "<group>"; };
+		63B58BBA1D2ABBD9000E821C /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		63B58BBB1D2ABBD9000E821C /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		63B58BBF1D2ACA03000E821C /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		63B58BC01D2ACA03000E821C /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		63B58BC31D2AED64000E821C /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelObject.h; path = DataModel/ModelObject.h; sourceTree = "<group>"; };
+		63B58BC41D2AED64000E821C /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelObject.m; path = DataModel/ModelObject.m; sourceTree = "<group>"; };
+		951ACDA8D81CEC1811B6A95B /* Pods-SwipeTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeTestApp/Pods-SwipeTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B19093E1DCD3DE5B679D2B06 /* Pods-SwipeTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeTestAppTests/Pods-SwipeTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F76D53CA832A1415FDED585D /* Pods-SwipeTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeTestAppTests/Pods-SwipeTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A965FCFFB0179AD542B8F9E1 /* libPods-SwipeTestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +114,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E45655FA25DC58C2E9DAC5 /* libPods-SwipeTestAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		237925CF46ED5EC0B6B178C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11763113138FBA15344654F5 /* libPods-SwipeTestApp.a */,
+				0CDF3D1DD5D1FBBD6B2A0349 /* libPods-SwipeTestAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63B58B2D1D2A84A9000E821C = {
 			isa = PBXGroup;
 			children = (
 				63B58B381D2A84A9000E821C /* SwipeTestApp */,
 				63B58B521D2A84AA000E821C /* SwipeTestAppTests */,
 				63B58B371D2A84A9000E821C /* Products */,
+				874F3B4C436B9990780C2167 /* Pods */,
+				237925CF46ED5EC0B6B178C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +153,13 @@
 		63B58B381D2A84A9000E821C /* SwipeTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				63B58B3C1D2A84A9000E821C /* AppDelegate.h */,
-				63B58B3D1D2A84A9000E821C /* AppDelegate.m */,
-				63B58B3F1D2A84A9000E821C /* ViewController.h */,
-				63B58B401D2A84A9000E821C /* ViewController.m */,
+				63B58B661D2A87E5000E821C /* AppDelegate */,
+				63B58B5E1D2A87CA000E821C /* Assembly */,
+				63B58B5F1D2A87CA000E821C /* Controllers */,
+				63B58B651D2A87CA000E821C /* View */,
+				63B58B611D2A87CA000E821C /* Core */,
 				63B58B421D2A84A9000E821C /* Main.storyboard */,
+				63B58B931D2ABB68000E821C /* Lib */,
 				63B58B451D2A84AA000E821C /* Assets.xcassets */,
 				63B58B471D2A84AA000E821C /* LaunchScreen.storyboard */,
 				63B58B4A1D2A84AA000E821C /* Info.plist */,
@@ -111,6 +185,145 @@
 			path = SwipeTestAppTests;
 			sourceTree = "<group>";
 		};
+		63B58B5E1D2A87CA000E821C /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B6A1D2A8816000E821C /* AppAssembly.h */,
+				63B58B6B1D2A8816000E821C /* AppAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		63B58B5F1D2A87CA000E821C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B6D1D2A8857000E821C /* MainViewController.h */,
+				63B58B6E1D2A8857000E821C /* MainViewController.m */,
+				63B58B701D2A886A000E821C /* ListViewController.h */,
+				63B58B711D2A886A000E821C /* ListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		63B58B611D2A87CA000E821C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B621D2A87CA000E821C /* CoreDataManager */,
+				63B58B631D2A87CA000E821C /* Mapping */,
+				63B58B641D2A87CA000E821C /* ServiceLayerManager */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		63B58B621D2A87CA000E821C /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B921D2ABB08000E821C /* DataModel */,
+				63B58B741D2A88A7000E821C /* CoreDataManager.h */,
+				63B58B751D2A88A7000E821C /* CoreDataManager.m */,
+				63B58B7A1D2A88E9000E821C /* SwipeTestApp.xcdatamodeld */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		63B58B631D2A87CA000E821C /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B831D2AA992000E821C /* ItemModel.h */,
+				63B58B841D2AA992000E821C /* ItemModel.m */,
+				63B58B891D2AAD25000E821C /* DetailItemModel.h */,
+				63B58B8A1D2AAD25000E821C /* DetailItemModel.m */,
+				63B58B861D2AAA62000E821C /* MapperBaseModel.h */,
+				63B58B871D2AAA62000E821C /* MapperBaseModel.m */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		63B58B641D2A87CA000E821C /* ServiceLayerManager */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B771D2A88B6000E821C /* ServceLayerManager.h */,
+				63B58B781D2A88B6000E821C /* ServceLayerManager.m */,
+				63B58B7D1D2A893D000E821C /* Configuration.plist */,
+			);
+			path = ServiceLayerManager;
+			sourceTree = "<group>";
+		};
+		63B58B651D2A87CA000E821C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B731D2A8885000E821C /* ListTableViewCell */,
+				63B58BBA1D2ABBD9000E821C /* CardView.h */,
+				63B58BBB1D2ABBD9000E821C /* CardView.m */,
+				63B58BBF1D2ACA03000E821C /* CustomButton.h */,
+				63B58BC01D2ACA03000E821C /* CustomButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63B58B661D2A87E5000E821C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B671D2A87E5000E821C /* AppDelegate.h */,
+				63B58B681D2A87E5000E821C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		63B58B731D2A8885000E821C /* ListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				63050EAA1D2B063C00262FC7 /* ListTableViewCell.h */,
+				63050EAB1D2B063C00262FC7 /* ListTableViewCell.m */,
+				63050EAC1D2B063C00262FC7 /* ListTableViewCell.xib */,
+			);
+			name = ListTableViewCell;
+			path = ../Controllers/ListDataSource;
+			sourceTree = "<group>";
+		};
+		63B58B921D2ABB08000E821C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				63B58B8C1D2ABAF7000E821C /* DetailItem+CoreDataProperties.h */,
+				63B58B8D1D2ABAF7000E821C /* DetailItem+CoreDataProperties.m */,
+				63B58B8E1D2ABAF7000E821C /* DetailItem.h */,
+				63B58B8F1D2ABAF7000E821C /* DetailItem.m */,
+				63B58BC31D2AED64000E821C /* ModelObject.h */,
+				63B58BC41D2AED64000E821C /* ModelObject.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		63B58B931D2ABB68000E821C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				63B58BB31D2ABBA4000E821C /* YSLDraggableCardContainer */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		63B58BB31D2ABBA4000E821C /* YSLDraggableCardContainer */ = {
+			isa = PBXGroup;
+			children = (
+				63B58BB41D2ABBA4000E821C /* YSLCardView.h */,
+				63B58BB51D2ABBA4000E821C /* YSLCardView.m */,
+				63B58BB61D2ABBA4000E821C /* YSLDraggableCardContainer.h */,
+				63B58BB71D2ABBA4000E821C /* YSLDraggableCardContainer.m */,
+			);
+			path = YSLDraggableCardContainer;
+			sourceTree = "<group>";
+		};
+		874F3B4C436B9990780C2167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				951ACDA8D81CEC1811B6A95B /* Pods-SwipeTestApp.debug.xcconfig */,
+				371DB276F67FBD57E7244E3A /* Pods-SwipeTestApp.release.xcconfig */,
+				B19093E1DCD3DE5B679D2B06 /* Pods-SwipeTestAppTests.debug.xcconfig */,
+				F76D53CA832A1415FDED585D /* Pods-SwipeTestAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63B58B581D2A84AA000E821C /* Build configuration list for PBXNativeTarget "SwipeTestApp" */;
 			buildPhases = (
+				6B818FDD5054E353DB46A769 /* Check Pods Manifest.lock */,
 				63B58B321D2A84A9000E821C /* Sources */,
 				63B58B331D2A84A9000E821C /* Frameworks */,
 				63B58B341D2A84A9000E821C /* Resources */,
+				3177BA077ED6DC5DBEE55D68 /* Embed Pods Frameworks */,
+				07D70570CFF050E8DF390D96 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63B58B5B1D2A84AA000E821C /* Build configuration list for PBXNativeTarget "SwipeTestAppTests" */;
 			buildPhases = (
+				B83E291F904FB2B0CF2013AD /* Check Pods Manifest.lock */,
 				63B58B4B1D2A84AA000E821C /* Sources */,
 				63B58B4C1D2A84AA000E821C /* Frameworks */,
 				63B58B4D1D2A84AA000E821C /* Resources */,
+				9F5146948B3B632990835ACF /* Embed Pods Frameworks */,
+				703F6FF192331AE362D4C4BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,8 +411,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B58B491D2A84AA000E821C /* LaunchScreen.storyboard in Resources */,
+				63B58B7E1D2A893D000E821C /* Configuration.plist in Resources */,
 				63B58B461D2A84AA000E821C /* Assets.xcassets in Resources */,
 				63B58B441D2A84A9000E821C /* Main.storyboard in Resources */,
+				63050EAE1D2B063C00262FC7 /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,14 +427,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07D70570CFF050E8DF390D96 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeTestApp/Pods-SwipeTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3177BA077ED6DC5DBEE55D68 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeTestApp/Pods-SwipeTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B818FDD5054E353DB46A769 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		703F6FF192331AE362D4C4BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeTestAppTests/Pods-SwipeTestAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5146948B3B632990835ACF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeTestAppTests/Pods-SwipeTestAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83E291F904FB2B0CF2013AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63B58B321D2A84A9000E821C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B58B411D2A84A9000E821C /* ViewController.m in Sources */,
-				63B58B3E1D2A84A9000E821C /* AppDelegate.m in Sources */,
+				63B58B8B1D2AAD25000E821C /* DetailItemModel.m in Sources */,
+				63B58B851D2AA992000E821C /* ItemModel.m in Sources */,
+				63B58B761D2A88A7000E821C /* CoreDataManager.m in Sources */,
+				63B58BB91D2ABBA4000E821C /* YSLDraggableCardContainer.m in Sources */,
+				63B58B901D2ABAF7000E821C /* DetailItem+CoreDataProperties.m in Sources */,
+				63B58B721D2A886A000E821C /* ListViewController.m in Sources */,
+				63B58B7C1D2A88E9000E821C /* SwipeTestApp.xcdatamodeld in Sources */,
+				63B58B691D2A87E5000E821C /* AppDelegate.m in Sources */,
+				63B58B881D2AAA62000E821C /* MapperBaseModel.m in Sources */,
+				63050EAD1D2B063C00262FC7 /* ListTableViewCell.m in Sources */,
+				63B58B6C1D2A8816000E821C /* AppAssembly.m in Sources */,
+				63B58BBC1D2ABBD9000E821C /* CardView.m in Sources */,
+				63B58B791D2A88B6000E821C /* ServceLayerManager.m in Sources */,
+				63B58BC51D2AED64000E821C /* ModelObject.m in Sources */,
 				63B58B3B1D2A84A9000E821C /* main.m in Sources */,
+				63B58BC11D2ACA03000E821C /* CustomButton.m in Sources */,
+				63B58BB81D2ABBA4000E821C /* YSLCardView.m in Sources */,
+				63B58B911D2ABAF7000E821C /* DetailItem.m in Sources */,
+				63B58B6F1D2A8857000E821C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +669,11 @@
 		};
 		63B58B591D2A84AA000E821C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951ACDA8D81CEC1811B6A95B /* Pods-SwipeTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.arthur.SwipeTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,9 +682,11 @@
 		};
 		63B58B5A1D2A84AA000E821C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371DB276F67FBD57E7244E3A /* Pods-SwipeTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.arthur.SwipeTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +695,7 @@
 		};
 		63B58B5C1D2A84AA000E821C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19093E1DCD3DE5B679D2B06 /* Pods-SwipeTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwipeTestAppTests/Info.plist;
@@ -373,6 +708,7 @@
 		};
 		63B58B5D1D2A84AA000E821C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76D53CA832A1415FDED585D /* Pods-SwipeTestAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwipeTestAppTests/Info.plist;
@@ -402,6 +738,7 @@
 				63B58B5A1D2A84AA000E821C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63B58B5B1D2A84AA000E821C /* Build configuration list for PBXNativeTarget "SwipeTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -410,8 +747,22 @@
 				63B58B5D1D2A84AA000E821C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63B58B7A1D2A88E9000E821C /* SwipeTestApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63B58B7B1D2A88E9000E821C /* SwipeTestApp.xcdatamodel */,
+			);
+			currentVersion = 63B58B7B1D2A88E9000E821C /* SwipeTestApp.xcdatamodel */;
+			path = SwipeTestApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 63B58B2E1D2A84A9000E821C /* Project object */;
 }
